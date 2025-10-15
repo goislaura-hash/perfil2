@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    color: #ffffff;
+    background-size: cover;
+    background-image: url("/perfil/img/bg-desktop.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    height: 600px;
+    margin: auto;
+    width: 700px;
+    margin-top: 56px;
+    padding: 10px;
+    position: relative;
+    top: -50px;
+}
+#perfil{
+    text-align: center;
+    padding: 20px;
+}
+img{
+    width: 112px;
+    margin: auto;
+    border: 3px solid #ffffff;
+    border-radius: 80px;
+}
+#paragrafo-perfil{
+    line-height: -500px;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 10px;
+}
+#lista ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+#lista a{
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+#lista a:hover{
+    background: rgba(255, 255, 255, 0.5);
+    border: 1,5px solid white;
+}
+#social ul{
+    position: relative;
+    top: -10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding: 5px;
+}
+#social a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+#social img{
+    width: 40px;
+}
+#social a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+#rodape{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -43px;
+}
+#rodape h3{
+    font-size: 16px;
+}
